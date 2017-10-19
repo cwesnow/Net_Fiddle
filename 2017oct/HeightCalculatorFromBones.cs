@@ -47,7 +47,7 @@ public class Program
 			
 			case Bones.Humerus:
 				height = (gender == Gender.Male) ?
-					height = 73.570f + (2.970f * boneLength) - age * 0.06f : 64.977f + (3.144f * boneLength) - age * 0.06f;
+					73.570f + (2.970f * boneLength) - age * 0.06f : 64.977f + (3.144f * boneLength) - age * 0.06f;
 				break;
 			
 			case Bones.Radius:
