@@ -10,7 +10,7 @@ public class Program
 	static Random random = new Random();
 	
 	enum Bones { Femur, Tibia, Humerus, Radius }
-	enum Gender { Male = 1, Female = 2 }
+	enum Gender { Male, Female}
 	
 	public static void Main()
 	{
