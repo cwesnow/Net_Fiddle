@@ -62,6 +62,6 @@ public class Program
 	
 	private static float randomLength() { return (float)random.NextDouble()*3; }
 	private static Bones randomBone() { return (Bones)random.Next(1,4); }
-	private static Gender randomGender() { return (Gender)random.Next(1,2); }
+	private static Gender randomGender() { return (Gender)random.Next(0,2); } // 1,2 & 0,1 always gave the same gender
 	private static int randomAge() { return random.Next(16, 99); }	
 }
